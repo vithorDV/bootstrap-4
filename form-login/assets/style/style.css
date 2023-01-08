@@ -1,0 +1,32 @@
+body{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.area{
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    padding: 10px;
+}
+.area h1{
+    font-size: 26px;
+    font-weight: bold;
+    margin:20px 0;
+}
+
+.logo{
+    width: 100%;
+    max-width: 150px;
+}
+.remember{
+    padding: 10px 0px;
+}
+.form-footer{
+    margin-top: 5px;
+    padding: 10px;
+    color:#444;
+}
