@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de compras</title>
+    <!--cdn do bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--icons do bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--css do projeto-->
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/img/favicon/favicon-16x16.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger border-bottom shadow-sm mb-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><strong>Quitanda Online</strong></a>
+
+            <button class="navbar navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item"> <a href="base.html" class="nav-link text-white">Principal</a></li>
+                    <li class="nav-item"> <a href="privacidade.html" class="nav-link text-white">Política e privacidade</a></li>
+                </ul>
+            </div>
+
+            <div class="align-self-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="cadastro.html" class="nav-link text-white">Quero me cadastrar</a></li>
+
+                    <li class="nav-item"><a href="login.html" class="nav-link text-white">Entrar</a></li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">
+                            <i class="bi bi-cart3"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="mb-5 pb-5 mb-md-0">
+        <div class="container">
+            <h1>Carrinho de compras</h1>
+            <hr>
+            <ul class="list-group mb-3">
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="assets/img/produtos/000008.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+
+                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                            <h4>
+                                <b>
+                                    <a href="#" class="text-decoration-none text-danger">Abacate Manteiga</a>
+                                </b>
+                            </h4>
+    
+                            <h4>
+                                <small>
+                                    Abacate Manteiga da melhor qualiadade possível e muito fresco
+                                </small>
+                            </h4>
+                        </div>
+    
+                        <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                            <div class="input-group">
+                                <button type="button" class="btn btn-outline-dark btn-sm">
+                                    <i class="bi bi-caret-down"></i>
+                                </button>
+                                <input type="text" class="form-control text-center border-dark" value="4">
+                                <button type="button" class="btn btn-outline-dark btn-sm">
+                                    <i class="bi bi-caret-up"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+
+                            </div>
+
+                            <div class="text-right mt-2">
+                                <small class="text-secondary">Valor kg:R$ 3,99 </small> <br>
+                                <span class="text-dark">Valor do item:R$ 7,98</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="assets/img/produtos/000001.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+
+                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                            <h4>
+                                <b>
+                                    <a href="#" class="text-decoration-none text-danger">Banana Prata</a>
+                                </b>
+                            </h4>
+    
+                            <h4>
+                                <small>
+                                    Banana Prata da melhor qualiadade possível e muito fresco
+                                </small>
+                            </h4>
+                        </div>
+    
+                        <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                            <div class="input-group">
+                                <button type="button" class="btn btn-outline-dark btn-sm">
+                                    <i class="bi bi-caret-down"></i>
+                                </button>
+                                <input type="text" class="form-control text-center border-dark" value="2">
+                                <button type="button" class="btn btn-outline-dark btn-sm">
+                                    <i class="bi bi-caret-up"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+
+                            </div>
+
+                            <div class="text-right mt-2">
+                                <small class="text-secondary">Valor kg:R$ 3,99 </small> <br>
+                                <span class="text-dark">Valor do item:R$ 7,98</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="assets/img/produtos/000010.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+
+                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                            <h4>
+                                <b>
+                                    <a href="#" class="text-decoration-none text-danger">Abobrinha</a>
+                                </b>
+                            </h4>
+    
+                            <h4>
+                                <small>
+                                    Abobrinha da melhor qualiadade possível e muito fresco
+                                </small>
+                            </h4>
+                        </div>
+    
+                        <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                            <div class="input-group">
+                                <button type="button" class="btn btn-outline-dark btn-sm">
+                                    <i class="bi bi-caret-down"></i>
+                                </button>
+                                <input type="text" class="form-control text-center border-dark" value="8">
+                                <button type="button" class="btn btn-outline-dark btn-sm">
+                                    <i class="bi bi-caret-up"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+
+                            </div>
+
+                            <div class="text-right mt-2">
+                                <small class="text-secondary">Valor kg:R$ 3,99 </small> <br>
+                                <span class="text-dark">Valor do item:R$ 7,98</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="assets/img/produtos/000004.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+
+                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                            <h4>
+                                <b>
+                                    <a href="#" class="text-decoration-none text-danger">Maça</a>
+                                </b>
+                            </h4>
+    
+                            <h4>
+                                <small>
+                                    Maças da melhor qualiadade possível.
+                                </small>
+                            </h4>
+                        </div>
+    
+                        <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                            <div class="input-group">
+                                <button type="button" class="btn btn-outline-dark btn-sm">
+                                    <i class="bi bi-caret-down"></i>
+                                </button>
+                                <input type="text" class="form-control text-center border-dark" value="6">
+                                <button type="button" class="btn btn-outline-dark btn-sm">
+                                    <i class="bi bi-caret-up"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+
+                            </div>
+
+                            <div class="text-right mt-2">
+                                <small class="text-secondary">Valor kg:R$ 3,99 </small> <br>
+                                <span class="text-dark">Valor do item:R$ 7,98</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="list-group-item py-3">
+                    <div class="text-right">
+                        <h4 class="text-dark mb-3">Valor total:R$ 7,98</h4>
+                        <a href="index.html" class="btn btn-outline-success btn-lg">Continuar comprando</a>
+                        <button class="btn btn-danger btn-lg">Fechar compra</button>
+                    </div>
+                </li>
+
+            </ul>
+
+            
+        </div>
+    </main>
+
+    
+
+    <footer class="border-top   text-muted bg-light">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-12 col-md-4 text-center text-md-left">
+                    &copy; 2022 Quitanda Online Ltda Me <br>
+                    Rua Virtual Inexistente 171,Compulnândia,PC <br>
+                    CNPJ 99.999.999/0001-9
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <a href="privacidade.html" class="text-decoration-none text-dark">Política de privacidade</a> <br>
+                    <a href="termos.html" class="text-decoration-none text-dark">Termos de uso</a> <br>
+                    <a href="quem-somos.html" class="text-decoration-none text-dark">Quem somos</a> <br>
+                    <a href="#" class="text-decoration-none text-dark">Trocas e devoluções</a>
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-right">
+                    <p class="text-dark">Contato pelo site</p>
+                    <p>Email:<span class="text-dark">email@dominio.com</span></p>
+                    <p>Telefone:<span class="text-dark">(28) 99999-0000</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Jquery-->
+    <script type="text/javascript" src="assets/js/jquery-3.6.1.min.js"></script>
+    <!--script do bootstrap-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

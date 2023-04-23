@@ -1,0 +1,1 @@
+Este projeto foi feito como exercício no canal Código Front-End https://www.youtube.com/watch?v=vHSYytrtUSw
