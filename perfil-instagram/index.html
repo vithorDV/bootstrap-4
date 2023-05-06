@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>User @User_example</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light nav-top">
+            <div class="container-fluid nav-container">
+
+                <a class="navbar-brand" href="https://www.instagram.com/" target="_blank"> <img src="images/Instagram_logo.svg.png" id="instaLogo">
+                </a>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                </form>
+
+                <div id="icons-nav">
+                
+                    <i class="me-3 bi bi-house-door fs-5 "></i>
+
+                    <i class="me-3 bi bi-inbox  fs-5"></i>
+
+                    <i class="me-3 bi bi-compass fs-5"></i>
+                    
+                    <i class="me-3 bi bi-heart  fs-5"></i>
+
+                    <img src="images/user.png" class="img-fluid" id="imgUser">
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="row">
+                <div class="col-0 col-md-2"></div>
+                <div class="col-12 col-md-8 text-center">
+                    <div class="container">
+                        <div class="row pt-3">
+                            <div class="col-3">
+                                <img src="images/fotoPerfil.webp" class=" img-fluid rounded-circle w-75">
+                            </div>
+                            <div class="col-7">
+
+                                <div class="row py-3">
+                                    <div class="col-8 col-lg-5 ">
+                                        <h2 id="userName" class="fs-4 fw-light">User_Random</h2>
+                                    </div>
+                                    <div class="col-4 col-lg-6" >
+                                        <button type="button" class="btn btn-sm btn-outline-secondary button-edit">Editar perfil</button>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p><strong class="m-1">137</strong>publicações</p>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <p><strong class="m-1">3.200</strong>seguidores</p>
+                                    </div>
+                                        
+                                    <div class="col-4">
+                                         <p><strong class="m-1">4.376</strong>seguindo</p>    
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 text-start">
+                                        <h3 id="name">User</h3>
+                                    </div>
+                                </div>
+
+                                <div class="row"> 
+                                    <div class="col-12 text-start">
+                                        <p class="profile-desc">Front End Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                                <div class="pt-0">
+                                    <div class="row">
+                                        <div class="col-2"> <canvas id="circle"></canvas> </div>
+                                        <div class="col-2"> <canvas id="circle1"></canvas> </div>
+                                        <div class="col-2"> <canvas id="circle2"></canvas> </div>
+                                    </div>
+                                </div>
+                                <div class="pb-3">
+                                    <div class="row">
+                                        <div class="col-2 text-center stories">Checklist</div>
+                                        <div class="col-2 text-center stories">Youtube</div>
+                                        <div class="col-2 text-center stories">Developer</div>
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+
+                    <hr size="3" class="w-100 m-0" style="color:#666;">
+
+                    <ul class="nav nav-tabs nav-feed">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i> Publicações</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#profile" class="nav-link  nav-link-2" id="profile-tab" data-bs-toggle="tab" aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i> Marcados</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="home" role="tabpane" aria-labelledby="home-tab">
+
+                            <div class="row pb-3">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post1.jpg" class="card-img-top posts">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post2.jpg" class="card-img-top posts">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post3.jpg" class="card-img-top posts">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row pb-3">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post4.jpg" class="card-img-top posts">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post5.jpg" class="card-img-top posts">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/fotoPerfil.webp" class="card-img-top posts">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="profile" aria-labelledby="profile-tab"></div>
+                    </div>
+
+                </div>
+                <div class="col-0 col-md-2"></div>
+            </div>
+        </section>
+    </main>
+
+
+    <script type="text/javascript">
+        let circle = document.querySelector('#circle').getContext('2d')
+
+        circle.beginPath()
+        circle.arc(60,100,40,0,2 * Math.PI)
+        circle.fillStyle = '#00acc1'
+        circle.fill()
+        circle.linewidth = 5
+        circle.strokeStyle = '#dbdbdb'
+        circle.stroke()
+
+        let circle1 = document.querySelector('#circle1').getContext('2d')
+
+        circle1.beginPath()
+        circle1.arc(60,100,40,0,4 * Math.PI)
+        circle1.fillStyle = '#f8bbd0'
+        circle1.fill()
+        circle1.linewidth = 5
+        circle1.strokeStyle = '#dbdbdb'
+        circle1.stroke()
+
+        let circle2 = document.querySelector('#circle2').getContext('2d')
+
+        circle2.beginPath()
+        circle2.arc(60,100,40,0,2 * Math.PI)
+        circle2.fillStyle = '#e91e63'
+        circle2.fill()
+        circle2.linewidth = 5
+        circle2.strokeStyle = '#dbdbdb'
+        circle2.stroke()
+    </script>
+
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

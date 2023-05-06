@@ -1,0 +1,1 @@
+Este projeto foi feito como exercício para obter experiência, baseado no projeto Criando seu perfil do Instagram com HTML, CSS e Bootstrap, Michelli Brito, https://www.youtube.com/watch?v=QZ8mu8vuOpg.
